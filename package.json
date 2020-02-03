@@ -1,0 +1,22 @@
+{
+  "name": "automation-cypress",
+  "version": "1.0.0",
+  "description": "Playing around with cypress.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElliotPalmer-94/automation-cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElliotPalmer-94/automation-cypress/issues"
+  },
+  "homepage": "https://github.com/ElliotPalmer-94/automation-cypress#readme",
+  "devDependencies": {
+    "cypress": "^3.8.3"
+  }
+}
