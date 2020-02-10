@@ -1,5 +1,5 @@
-const pageUrls = require('../page-urls/urls');
-const entryAddPageElements = require('../page-elements/entry-add');
+const pageUrls = require('../page_urls/urls');
+const entryAddPageElements = require('../page_elements/entry-add');
 
 describe('Entry Add - Model', () => {
 
@@ -7,7 +7,7 @@ describe('Entry Add - Model', () => {
         cy.visit(pageUrls.entryAdd);
     });
 
-    it('Able to close model', () => {
+    it('Close model - Click', () => {
 
         cy.get(entryAddPageElements.modelCloseButton)
             .click();
@@ -16,18 +16,11 @@ describe('Entry Add - Model', () => {
             .should('not.be.visible');
     });
 
-    it('Able to open model', () => {
+    it('Close model - Mouse click outside model', () => {
 
-        cy.get(entryAddPageElements.modelCloseButton)
-            .click();
 
-        cy.get(entryAddPageElements.clickHereLink)
-            .click();
+        //NEED TO ADD
 
-        cy.reload(true);
-
-        cy.get(entryAddPageElements.model)
-            .should('be.visible');
 
     });
 });

@@ -1,5 +1,5 @@
-const pageUrls = require('../page-urls/urls');
-const dropdownPageElements = require('../page-elements/dropdown');
+const pageUrls = require('../page_urls/urls');
+const dropdownPageElements = require('../page_elements/dropdown');
 
 describe('Dropdown - Select dropdown options', () => {
 
