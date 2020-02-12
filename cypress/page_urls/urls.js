@@ -1,9 +1,9 @@
-// ================= URL =================
 const entryAdd = `entry_ad`
 const windows = `windows`
 const alerts = `javascript_alerts`
 const dropdown = `dropdown`
 const tables = `tables`
+const dynamicControls = `dynamic_controls`
 
 module.exports = {
     entryAdd,
@@ -11,4 +11,5 @@ module.exports = {
     alerts,
     dropdown,
     tables,
+    dynamicControls,
 }
