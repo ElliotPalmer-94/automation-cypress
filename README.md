@@ -9,7 +9,7 @@ npm i
 ```
 
 # Running Test
-# ----------Cypress.io----------
+# ----------Cypress.io---------- 
 
 Run the following to open cypress
 ```
