@@ -1,5 +1,5 @@
-const pageUrls = require('../page_urls/urls');
-const alertsPageElements = require('../page_elements/alerts');
+const pageUrls = require('../../page_urls/urls');
+const alertsPageElements = require('../../page_elements/alerts');
 
 //Writing test when dealing with mutiple JS alerts
 

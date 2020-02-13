@@ -1,5 +1,5 @@
-const pageUrls = require('../page_urls/urls');
-const entryAddPageElements = require('../page_elements/entry-add');
+const pageUrls = require('../../page_urls/urls');
+const entryAddPageElements = require('../../page_elements/entry-add');
 
 describe('Entry Add - Model', () => {
 

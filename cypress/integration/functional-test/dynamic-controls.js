@@ -1,5 +1,5 @@
-const pageUrls = require('../page_urls/urls');
-const dynamicControlsPageElements = require('../page_elements/dynamic-controls');
+const pageUrls = require('../../page_urls/urls');
+const dynamicControlsPageElements = require('../../page_elements/dynamic-controls');
 
 describe('Dynamic Controls', () => {
 

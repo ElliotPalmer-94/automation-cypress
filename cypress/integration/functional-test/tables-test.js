@@ -1,5 +1,5 @@
-const pageUrls = require('../page_urls/urls');
-const tablesPageElements = require('../page_elements/tables');
+const pageUrls = require('../../page_urls/urls');
+const tablesPageElements = require('../../page_elements/tables');
 
 describe('Tables - Filter data in tables', () => {
 

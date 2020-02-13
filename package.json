@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/ElliotPalmer-94/automation-cypress#readme",
   "devDependencies": {
-    "cypress": "^4.0.1"
-  }
+    "cypress": "^4.0.1",
+    "cypress-image-snapshot": "^3.1.1"
+  },
+  "dependencies": {}
 }

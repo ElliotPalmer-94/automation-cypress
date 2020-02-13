@@ -1,5 +1,5 @@
-const pageUrls = require('../page_urls/urls');
-const windowsPageElements = require('../page_elements/windows');
+const pageUrls = require('../../page_urls/urls');
+const windowsPageElements = require('../../page_elements/windows');
 
 //Writing test when dealing with mutiple window mandles as this cannot be handled within cypress.io 
 //So other creative ways of testing/checking href linlks with "_traget"
