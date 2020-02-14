@@ -13,11 +13,12 @@
 
 // `on` is used to hook into various events Cypress emits
 // `config` is the resolved Cypress config
-
-const {
-  addMatchImageSnapshotPlugin,
-} = require('cypress-image-snapshot/plugin');
+const { addMatchImageSnapshotPlugin, } = require('cypress-image-snapshot/plugin');
 
 module.exports = (on, config) => {
   addMatchImageSnapshotPlugin(on, config);
+
+  config.ignoreTestFiles = "**/a11y_test/*.js";
+  return config;
+
 };
