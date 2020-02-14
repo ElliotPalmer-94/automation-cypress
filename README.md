@@ -34,3 +34,10 @@ npm run cy:run -- --spec "cypress/integration/alerts-test.js"
 npm run cy:run:edge -- --spec "cypress/integration/alerts-test.js"
 
 ```
+
+To run a lighthouse test run the following
+
+```
+npm run lighthouse
+
+```
