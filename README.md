@@ -1,6 +1,9 @@
 # automation-cypress
 Playing around with cypress.io
 
+# Cypress.io Dashboard
+https://dashboard.cypress.io/projects/yympg9/runs
+
 # Installation
 # ----------Packages----------
 
