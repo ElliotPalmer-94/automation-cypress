@@ -30,8 +30,8 @@ npm run cy:run:edge
 To run a particular test for example running `alerts-test.js` run the following:
 
 ```
-npm run cy:run -- --spec "cypress/integration/alerts-test.js"
-npm run cy:run:edge -- --spec "cypress/integration/alerts-test.js"
+npm run cy:run -- --spec "cypress/integration/functional_test/alerts-test.js"
+npm run cy:run:edge -- --spec "cypress/integration/functional_test/alerts-test.js"
 
 ```
 
