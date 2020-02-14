@@ -1,8 +1,14 @@
 # automation-cypress
 Playing around with cypress.io
 
-# Cypress.io Dashboard
+# Cypress.io Dashboard & Pipeline
+**Cypress dashboard:**
+
 https://dashboard.cypress.io/projects/yympg9/runs
+
+**Git pipeline:**
+
+https://github.com/ElliotPalmer-94/automation-cypress/actions
 
 # Installation
 # ----------Packages----------
