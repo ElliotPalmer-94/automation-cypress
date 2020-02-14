@@ -1,4 +1,7 @@
 # automation-cypress
+
+![Functional Test](https://github.com/ElliotPalmer-94/automation-cypress/workflows/Functional%20Test/badge.svg?branch=master)
+
 Playing around with cypress.io
 
 # Cypress.io Dashboard & Pipeline
