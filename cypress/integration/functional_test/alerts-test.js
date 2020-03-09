@@ -16,7 +16,7 @@ describe('JavaScript Alerts', () => {
             .click();
 
         cy.get(alertsPageElements.results)
-            .contains('You successfuly clicked an alert');
+            .should('contain', 'You successfuly clicked an alert');
     });
 
     it('JavaScript - Confirm', () => {
@@ -26,7 +26,7 @@ describe('JavaScript Alerts', () => {
             .click();
 
         cy.get(alertsPageElements.results)
-            .contains('You clicked: Ok');
+            .should('contain', 'You clicked: Ok');
     });
 
     it('JavaScript - Prompt', () => {
@@ -41,6 +41,6 @@ describe('JavaScript Alerts', () => {
         });
 
         cy.get(alertsPageElements.results)
-            .contains('You entered: This is a test');
+            .should('contain', 'You entered: This is a test');
     });
 });
